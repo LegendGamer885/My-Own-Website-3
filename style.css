@@ -1,0 +1,142 @@
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.container {
+    justify-content: center;
+    border: turquoise;
+    background-color: black;
+    color: white;
+}
+
+a{
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 15px;
+    font-size: 25px;
+    display:inline;
+    font-family: sans-serif;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+    font-style: italic;
+}
+
+a .icon {
+    display: none;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:#f2f2f2;
+    font-size: 30px;
+    padding: 30px;
+}
+
+h2 {
+    color:#f2f2f2;
+    font-size: 20px;
+}
+
+#profile {
+    float: left;
+    border-radius: 50%;
+    padding-right: 20px;
+    width: 140px;
+    height: 140px;
+    padding-left: 10px;
+}
+
+#about {
+   text-align: center;
+    color: #f2f2f2;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+#header1 {
+    background-color: black;
+}
+
+#Button {
+    margin-left: 430px;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
+
+.app {
+    position: relative;
+}
+
+.app p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.app:hover p{
+    opacity: 1;
+    color: black;
+}
+
+.app:hover img{
+    opacity: 0.33;
+}
+
+.games {
+    position: relative;
+}
+
+.games p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.games:hover p{
+    opacity: 1;
+    color: black;
+}
+
+.games:hover img{
+    opacity: 0.33;
+} 
